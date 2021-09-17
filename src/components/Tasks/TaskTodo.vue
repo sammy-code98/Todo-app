@@ -1,8 +1,8 @@
 <template>
   <div>
    <list-header
-   bgColor=" bg-orange-4"
-    >Todo</list-header>
+    class="bgColor"
+    >Things to get done today </list-header>
     <q-list separator bordered >
       <tasks v-for="(task, key) in tasksTodo" :key="task.id" :task="task" :id="key"></tasks>
     </q-list>
@@ -18,4 +18,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.bgColor{
+  background-color: #375f88;
+}
 </style>
