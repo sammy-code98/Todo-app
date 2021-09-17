@@ -28,36 +28,7 @@ const state = {
 
     }
 
-    // all the data goes here
-    // tasks: [{
-    //         id: 1,
-    //         name: "study for 3 hours",
-    //         completed: false,
-    //         dueDate: "2020/05/10",
-    //         dueTime: "22:00"
-    //     },
-    //     {
-    //         id: 2,
-    //         name: "code for 6 hours",
-    //         completed: false,
-    //         dueDate: "2020/05/10",
-    //         dueTime: "22:00"
-    //     },
-    //     {
-    //         id: 3,
-    //         name: "see a movie",
-    //         completed: false,
-    //         dueDate: "2020/05/10",
-    //         dueTime: "22:00"
-    //     },
-    //     {
-    //         id: 4,
-    //         name: "have an amazing sleep",
-    //         completed: false,
-    //         dueDate: "2020/05/10",
-    //         dueTime: "22:00"
-    //     }
-    // ]
+    
 
 }
 
