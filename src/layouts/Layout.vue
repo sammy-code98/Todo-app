@@ -1,8 +1,8 @@
 <template>
   <q-layout view="hHh Lpr fFf">
-    <q-header elevated>
+    <q-header >
       <q-toolbar>
-        <q-toolbar-title class="absolute-center">Sam's Todo</q-toolbar-title>
+        <q-toolbar-title class="absolute-center">My Todo</q-toolbar-title>
       </q-toolbar>
     </q-header>
 

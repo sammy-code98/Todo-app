@@ -1,4 +1,4 @@
-# my-todo (my-todo)
+# Todo App
 
 a todo app
 
