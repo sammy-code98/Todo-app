@@ -1,6 +1,7 @@
 <template>
   <div>
     <q-item
+    class="border"
       clickable
       :class="!task.completed ? 'bg-orange-1': 'bg-green-1'"
       @click="updateTask({id: id, updates:{completed : !task.completed}})"
@@ -73,4 +74,8 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.border{
+
+  margin: 10px;
+}
 </style>
