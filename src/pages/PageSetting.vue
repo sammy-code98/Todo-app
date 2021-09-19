@@ -9,7 +9,8 @@
             >
           </q-item-section>
           <q-item-section side>
-            <q-toggle color="blue" v-model="notif1" val="battery" />
+            <q-toggle color="blue" v-model="notif1" val="battery"   @click="$q.dark.toggle()"
+ />
           </q-item-section>
         </q-item>
       </q-list>
@@ -40,7 +41,10 @@ export default {
       notif1: false,
       notif2: false,
       notif3: false
+
     };
+              console.log(this.$q.dark.mode)
+
   }
 };
 </script>
