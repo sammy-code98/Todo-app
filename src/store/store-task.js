@@ -7,24 +7,24 @@ const state = {
 
     // using data in object format
     tasks: {
-        'id1': {
-            name: "study for 3 hours",
-            completed: false,
-            dueDate: "2020/05/10",
-            dueTime: "22:00"
-        },
-        'id2': {
-            name: "code for 6 hours",
-            completed: false,
-            dueDate: "2020/05/10",
-            dueTime: "22:00"
-        },
-        'id3': {
-            name: "see a movie",
-            completed: false,
-            dueDate: "2020/05/10",
-            dueTime: "22:00"
-        }
+        // 'id1': {
+        //     name: "study for 3 hours",
+        //     completed: false,
+        //     dueDate: "2020/05/10",
+        //     dueTime: "22:00"
+        // },
+        // 'id2': {
+        //     name: "code for 6 hours",
+        //     completed: false,
+        //     dueDate: "2020/05/10",
+        //     dueTime: "22:00"
+        // },
+        // 'id3': {
+        //     name: "see a movie",
+        //     completed: false,
+        //     dueDate: "2020/05/10",
+        //     dueTime: "22:00"
+        // }
 
     }
 
