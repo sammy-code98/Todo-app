@@ -105,7 +105,7 @@ module.exports = function( /* ctx */ ) {
             workboxOptions: {}, // only for GenerateSW
             manifest: {
                 name: 'my-todo',
-                short_name: 'my-todo',
+                short_name: 'my-todo',  
                 description: 'a todo app',
                 display: 'standalone',
                 orientation: 'portrait',
