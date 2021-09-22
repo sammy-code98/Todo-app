@@ -8,9 +8,14 @@
               >Dark Mode</q-item-label
             >
           </q-item-section>
-          <q-item-section side>
-            <q-toggle color="blue" v-model="darkmode" val="battery" />
-          </q-item-section>
+          <q-btn
+            flat
+            dense
+            round
+            no-caps
+            :icon="$q.dark.isActive ? 'mdi-brightness-5' : 'mdi-brightness-4'"
+            @click="$q.dark.isActive ? $q.dark.set(false) : $q.dark.set(true)"
+          ></q-btn>
         </q-item>
       </q-list>
 
@@ -34,20 +39,11 @@
 </template>
 
 <script>
-import { useQuasar } from 'quasar'
 export default {
   data() {
     return {
-      darkmode: false,
-      
+      darkmode: false
     };
-  },
-  setup(){
-   const $q = useQuasar() 
-     $q.dark.set(true)
-  //  console.log($q.dark.isActive);
   }
-  
 };
-
 </script>

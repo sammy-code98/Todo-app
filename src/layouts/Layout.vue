@@ -1,8 +1,8 @@
 <template>
   <q-layout view="hHh Lpr fFf">
-    <q-header >
+    <q-header>
       <q-toolbar>
-        <q-toolbar-title class="absolute-center">My Todo</q-toolbar-title>
+        <q-toolbar-title class="absolute-center">My Todo</q-toolbar-title>        
       </q-toolbar>
     </q-header>
 
@@ -29,7 +29,11 @@
     >
       <q-list dark>
         <q-item-label header class="text-grey-4">Navigation</q-item-label>
-        <EssentialLink v-for="link in essentialLinks" :key="link.title" v-bind="link" />
+        <EssentialLink
+          v-for="link in essentialLinks"
+          :key="link.title"
+          v-bind="link"
+        />
       </q-list>
     </q-drawer>
 
