@@ -29,7 +29,27 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem,
               eius reprehenderit eos corrupti commodi magni quaerat ex numquam,
               dolorum officiis modi facere maiores architecto suscipit iste
-              eveniet doloribus ullam aliquid.
+              eveniet doloribus ullam aliquid. Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Quidem, eius reprehenderit eos
+              corrupti commodi magni quaerat ex numquam, dolorum officiis modi
+              facere maiores architecto suscipit iste eveniet doloribus ullam
+              aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quidem, eius reprehenderit eos corrupti commodi magni quaerat ex
+              numquam, dolorum officiis modi facere maiores architecto suscipit
+              iste eveniet doloribus ullam aliquid. Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Quidem, eius reprehenderit eos
+              corrupti commodi magni quaerat ex numquam, dolorum officiis modi
+              facere maiores architecto suscipit iste eveniet doloribus ullam
+              aliquid.
+              <div class="q-pa-md q-ma-sm q-gutter-md">
+                <p>Catch up with  the latest on;</p>
+                <q-btn flat round color="primary" icon="mdi-facebook" />
+                <q-btn flat round color="light-blue-8" icon="mdi-twitter" />
+
+                <q-btn flat round color="primary" icon="mdi-linkedin" />
+
+                <q-btn flat round color="black" icon="mdi-github" />
+              </div>
             </q-card-section>
           </q-card>
         </q-expansion-item>
