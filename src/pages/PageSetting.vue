@@ -9,8 +9,7 @@
             >
           </q-item-section>
           <q-item-section side>
-            <q-toggle color="blue" v-model="notif1" val="battery"   @click="$q.dark.toggle()"
- />
+            <q-toggle color="blue" v-model="darkmode" val="battery" />
           </q-item-section>
         </q-item>
       </q-list>
@@ -35,16 +34,20 @@
 </template>
 
 <script>
+import { useQuasar } from 'quasar'
 export default {
   data() {
     return {
-      notif1: false,
-      notif2: false,
-      notif3: false
-
+      darkmode: false,
+      
     };
-              console.log(this.$q.dark.mode)
-
+  },
+  setup(){
+   const $q = useQuasar() 
+     $q.dark.set(true)
+  //  console.log($q.dark.isActive);
   }
+  
 };
+
 </script>
